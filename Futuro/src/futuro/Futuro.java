@@ -12,7 +12,7 @@ public class Futuro {
    /* Este código ha sido hecho por Jose Antonio Bonmatí Garrido inspirado
       en el código proporcionado en el curso de DAM*/
     
-    static String veredicto(String v1, String v2){
+    static private String veredicto(String v1, String v2){
         if (v1.equals(v2)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
         }
